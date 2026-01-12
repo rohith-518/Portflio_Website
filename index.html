@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rohith Perisetti | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <!-- NAV -->
+    <nav id="desktop-nav">
+      <div class="logo">Rohith Perisetti</div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#achievements">Achievements</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <nav id="hamburger-nav">
+      <div class="logo">Rohith Perisetti</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#skills" onclick="toggleMenu()">Skills</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#achievements" onclick="toggleMenu()">Achievements</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+
+    <!-- HERO -->
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/profile1.png" alt="Rohith Perisetti" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Rohith Perisetti</h1>
+        <p class="section__text__p2">Web Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('https://drive.google.com/file/d/16tt71FikU2qB2nV-LchT6a_WHlurU5l7/view')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+         
+          <img src="./assets/linkedin.png" class="icon" onclick="location.href='https://www.linkedin.com/in/rohithperisetti'" />
+          <img src="./assets/github.png" class="icon" onclick="location.href='https://github.com/rohith-518'" />
+          <img src="./assets/gfg.png" class="icon" onclick="location.href='https://www.geeksforgeeks.org/profile/rohithperyp06'" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+  <p class="section__text__p1">Get To Know More</p>
+  <h1 class="title">About</h1>
+
+  <!-- Education Center -->
+  <div class="experience-details-container">
+    <div class="about-containers center-single">
+      <div class="details-container">
+        <h3>Education</h3>
+        <p>
+          DMS SVH College of Engineering<br />
+          B.Tech – Computer Science & Engineering<br />
+          Machilipatnam, Andhra Pradesh
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <!-- About Me Box -->
+  <div class="experience-details-container">
+    <div class="about-containers">
+      <div class="details-container">
+        <h3>About Me</h3>
+        <p>
+          Web Developer with hands-on experience in building responsive web
+          applications using HTML, CSS, JavaScript, and React. Built and
+          deployed real-world projects such as E-Commerce, Weather, and Food
+          Delivery websites. Strong problem-solving mindset with 150+ DSA
+          problems solved on GeeksforGeeks and consistent daily practice.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section id="skills" class="px-6 py-20 max-w-5xl mx-auto">
+  <h1 class="title">Technical Skills</h1>
+  <div class="grid md:grid-cols-2 gap-8">
+    <!-- Card 1 -->
+    <div class="skill-box">
+      <h3 class="skill-title">Languages</h3>
+      <div class="skill-tags">
+        <span>Java</span><span>MySQL</span><span>C</span>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="skill-box">
+      <h3 class="skill-title">Technologies</h3>
+      <div class="skill-tags">
+        <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        <span>Tailwind CSS</span><span>React</span>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="skill-box">
+      <h3 class="skill-title">Version Control</h3>
+      <div class="skill-tags">
+        <span>Git</span><span>GitHub</span>
+      </div>
+    </div>
+
+    <!-- Card 4 -->
+    <div class="skill-box">
+      <h3 class="skill-title">Tools</h3>
+      <div class="skill-tags">
+        <span>VS Code</span><span>IntelliJ IDEA</span>
+      </div>
+    </div>
+
+   <!-- Backend / MERN -->
+<div class="skill-box w-full max-w-md">
+  <h3 class="skill-title">Backend</h3>
+  <div class="skill-tags justify-center">
+    <span>Node.js</span>
+    <span>Express.js</span>
+    <span>MongoDB</span>
+    <span>REST APIs</span>
+  </div>
+</div>
+
+<!-- Card 5 -->
+<div class="skill-box w-full max-w-xl md:col-span-2">
+  <h3 class="skill-title">Core Concepts</h3>
+  <div class="skill-tags justify-center">
+    <span>OOPs</span>
+    <span>SDLC</span>
+    <span>DSA</span>
+  </div>
+</div>
+
+
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+
+          <div class="details-container color-container">
+            <img src="./assets/ecommerce.png" class="project-img" />
+            <h2 class="experience-sub-title project-title">E-Commerce Website</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://commerce-project.netlify.app/'">Live</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/rohith-518/E-commerce-website'">GitHub</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <img src="./assets/food.png" class="project-img" />
+            <h2 class="experience-sub-title project-title">Food Delivery Website</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://rohith-518.github.io/Food_Delivery_website/'">Live</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/rohith-518'">GitHub</button>
+            </div>
+          </div>
+
+          <div class="details-container color-container">
+            <img src="./assets/Screenshot 2026-01-12 170428.png" class="project-img" />
+            <h2 class="experience-sub-title project-title">Weather Website</h2>
+            <div class="btn-container">
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://rohith-518.github.io/Weather_website/'">Live</button>
+              <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/rohith-518'">GitHub</button>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS -->
+    <section id="achievements">
+     <h1 class="title">Achievements</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <ul style="text-align:left; line-height:1.8; font-size:1.1rem;">
+              <li>Solved 150+ problems on GeeksforGeeks.</li>
+              <li>105-day POTD streak with 111 daily problems solved.</li>
+              <li>Completed Web Development course by Hitesh Choudhary (Udemy).</li>
+              <li>Completed Java Self-Paced course on GeeksforGeeks.</li>
+              <li>Completed DSA Self-Paced course on GeeksforGeeks.</li>
+              <li>Completed TCS iON Young Professional certification.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="px-6 py-20 max-w-md mx-auto text-center">
+    <h1 class="title">Get in Touch</h1>
+    <form class="space-y-4">
+      <input class="w-full p-3 rounded border dark:bg-gray-800" placeholder="Full Name" />
+      <input class="w-full p-3 rounded border dark:bg-gray-800" placeholder="Email" />
+      <textarea class="w-full p-3 rounded border dark:bg-gray-800" rows="4" placeholder="Message"></textarea>
+      <button class="w-full py-3 rounded bg-blue-600 text-white hover:bg-blue-700">
+        Send
+      </button>
+    </form>
+  </section>
+    <p class="text-center py-4">
+     © 2026 Rohith Perisetti. All Rights Reserved.
+    </p>
+  <script src="script.js"></script>
+  </body>
+  </html>
